@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:wght@200;400;600;800&family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+/*  Empieza el header */
+
+header{
+    background-color: #ffff;
+    position: sticky;
+    top: 0;
+
+}
+.logo{
+    width: 75px;
+    cursor: pointer;
+}
+
+.lugar{
+    color:#6F4380    
+}
+
+button {
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.contacto{
+    background-color: #6F4380;
+    color: #ffff;
+    cursor: pointer;
+}
+
+
+.logocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar{
+    padding:0px 30px
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.navlinks li{
+    list-style: none;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: grey;
+}
+
+
+/* Empieza el main del index*/
+main{
+    background-color: #F6F3EE;
+}
+
+/* primer contenedor del main de index */
+.container .container__index{
+    background-image: url(../img/IZQUIERDA11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.container__index__principal{
+
+    background-color: #ffffff73;
+    width: 70%;
+    height:auto;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px 1px #f0f0f0;
+}
+
+
+.container__index h1{
+    font-size: 65px;
+    text-align: center;
+    padding-top: 20px;
+}
+.container__index .psicologia{
+    color: #6F4380;
+    font-size: 65px;
+}
+
+.container__index p{
+    padding: 10px 70px;
+    line-height: 30px;
+}
+
+/* segundo contenedor del index */
+
+.contenedor{
+    padding: 100px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .diferencias{
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px 50px;
+    box-shadow: 0px 0px 10px 10px #6F4380;
+}
+
+.diferencias__logo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.diferencias__logo img{
+    width: 70px;
+    height: auto;
+}
+
+.diferencias h3{
+color:#6F4380;
+text-align: center;
+padding: 15px;
+}
+
+.diferencias p{
+    color:#999;
+    line-height: 30px;
+}
+
+/* banner de art de interes y terapia online */
+
+.banner{
+/*     background: rgb(144,0,255);
+ */   /*  background: linear-gradient(90deg, rgba(144,0,255,1) 0%, rgba(76,0,255,1) 100%, rgba(9,9,121,1) 100%); */
+       background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
+
+/*     background-color: #999;
+ */    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner h1{
+    color: #ffff;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+
+
+
+
+footer{
+    background-color: #474A57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer p{
+    color: #ffff;
+}
+
+footer a{
+text-decoration: none;
+color: #Ffff
+}
+
+
+.social-links li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+
+
+/* TERAPIA ONLINE. ARTICULOS */
+
+.container h3{
+    text-align: center;
+    color:#6F4380
+}
+
+
+
+/* ART. DE INTERES. VIDEOS */
+
+.card-title{
+    text-align: center;
+    color: #6F4380;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+
+/* BARRA DE NAVEGACION MOBILE */
+
+.navbar{
+    display: block;
+    padding: 0;
+}
+
+.navlinks{
+    gap: 7px;
+    padding: 0;
+}
+
+.navlinks a{
+    font-size: 10px;
+}
+
+}
+
