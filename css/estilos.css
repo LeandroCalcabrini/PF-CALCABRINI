@@ -17,6 +17,15 @@ header{
 
 }
 
+/* CONTENEDOR DEL LOGO DE LA ORG. */
+
+.logocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+}
 /* LOGO DE LA ORGANIZACION */
 .logo{
     width: 75px;
@@ -41,19 +50,12 @@ button {
 }
 
 
-/* CONTENEDOR DEL LOGO DE LA ORG. */
-
-.logocontainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
+/* CONTENEDOR DE LA NAVBAR.  */
 .navbar{
     padding:0px 30px
 }
 
+/* CONTENEDOR UL. */
 .navlinks{
     display: flex;
     align-items: center;
@@ -214,7 +216,7 @@ details{
 
 
 
-
+/* SECCION DEL FOOTER */
 
 footer{
     background-color: #474A57;
@@ -222,15 +224,50 @@ footer{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    height: 200px;
+    padding: 10px 30px;
+    
 }
 
-footer p{
-    color: #ffff;
-}
 
 footer a{
 text-decoration: none;
 color: #Ffff
+}
+
+/* Contenedor del copyright */
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+}
+
+footer .copyright p{
+    margin: 0;
+    color: #ffff;
+
+}
+
+/* CONTENEDOR DE LOS ICONOS DE LAS REDES SOCIALES DEL FOOTER */
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+}
+
+.social-links ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -238,6 +275,10 @@ color: #Ffff
     display: inline-block;
     padding: 0px 5px;
 }
+
+
+
+
 
 
 
@@ -356,13 +397,15 @@ align-items: center;
 }
 
 
-.dudas a{
+.container-fluid a{
     text-decoration: none;
     color: #ffff;
     border-bottom: solid 1px;
 }
 
 
+
+/* RESPONSIVE CELULAR */
 
 @media (max-width:500px){
 
@@ -382,5 +425,13 @@ align-items: center;
     font-size: 10px;
 }
 
+
+
+footer{
+flex-direction: column;
+flex-wrap: nowrap;}
 }
 
+footer .logocontainer{
+    height: ;
+}
