@@ -12,8 +12,12 @@
 
 header{
     background-color: #ffff;
+    height: 150px;
     position: sticky;
     top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -23,8 +27,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 100px;
 }
 /* LOGO DE LA ORGANIZACION */
 .logo{
@@ -32,8 +34,9 @@ header{
     cursor: pointer;
 }
 
-.lugar{
-    color:#6F4380    
+.lugar:hover{
+    border-bottom: solid 2px #6F4380;
+    font-size: 17px;
 }
 /* BOTON DE CONTACTAR Y DE SOLICITUD DE FORMULARIO */
 button {
@@ -43,16 +46,22 @@ button {
     padding: 5px;
 }
 
+
 .contacto{
     background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
     color: #ffff;
     cursor: pointer;
 }
 
+.contacto:active{
+    background: #ceb8d6;
+}
+
 
 /* CONTENEDOR DE LA NAVBAR.  */
 .navbar{
-    padding:0px 30px
+    padding:0px 30px;
+    width: 100%;
 }
 
 /* CONTENEDOR UL. */
@@ -61,6 +70,8 @@ button {
     align-items: center;
     justify-content: center;
     gap: 15px;
+    height: 70px;
+    margin: 0;
 }
 
 
@@ -82,7 +93,7 @@ main{
 /* primer contenedor del main de index */
 
 .container{
-    padding: 50px 0px;
+    padding: 40px 20px;
 }
 
 
@@ -91,7 +102,6 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,9 +112,7 @@ main{
 .container__index__principal{
 
     background-color: #ffffff73;
-    width: 70%;
     height:auto;
-    border-radius: 20px;
     box-shadow: 5px 10px 20px 1px #f0f0f0;
 }
 
@@ -120,7 +128,7 @@ main{
 }
 
 .container__index p{
-    padding: 10px 70px;
+    padding: 40px 20px;
     line-height: 30px;
 }
 
@@ -133,8 +141,6 @@ main{
 }
 
 .container .diferencias{
-    width: 30%;
-    height: 700px;
     border-radius: 10px;
     padding: 20px 35px;
     box-shadow: 0px 0px 10px 10px #6F4380;
@@ -166,9 +172,6 @@ padding: 15px;
 
 /* PREGUNTAS FRECUENTES */
 
-.preguntas{
-   height: 400px;
-}
 
 .preguntas h4{
     text-align: center;
@@ -240,8 +243,6 @@ footer .copyright{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 100px;
 }
 
 footer .copyright p{
@@ -256,8 +257,6 @@ footer .copyright p{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 100px;
 }
 
 .social-links ul{
@@ -265,17 +264,31 @@ footer .copyright p{
     justify-content: space-evenly;
     align-items: center;
     width: 200px;
-    height: 100px;
+    height: 50px;
     margin: 0;
     padding: 0;
 }
 
 
 .social-links li{
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     padding: 0px 5px;
+    height: 50px;
+    width: 50px;
 }
 
+.social-links li:hover{
+    background-color: #6F4380;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.social-links i:hover{
+    font-size: 25px;
+    transition: 0.4s;
+}
 
 
 
@@ -313,7 +326,7 @@ footer .copyright p{
 .contenedoor{
     display: flex;
     width: 100%;
-    padding: 100px;
+    padding: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -407,7 +420,7 @@ align-items: center;
 
 /* RESPONSIVE CELULAR */
 
-@media (max-width:500px){
+@media (max-width:480px){
 
 /* BARRA DE NAVEGACION MOBILE */
 
@@ -419,19 +432,32 @@ align-items: center;
 .navlinks{
     gap: 7px;
     padding: 0;
+    height: 50px;
 }
 
 .navlinks a{
     font-size: 10px;
 }
 
-
-
-footer{
-flex-direction: column;
-flex-wrap: nowrap;}
+header .logocontainer{
+    padding-top: 15px;
 }
 
-footer .logocontainer{
-    height: ;
+/* footer mobiLe */
+footer{
+   flex-direction: column;
+   flex-wrap: nowrap;
+}
+
+
+/* seccion art. de interes. */
+
+/* carta en bootstrap tiene una position relative. */
+.card{
+    position: static;
+}
+
+details{
+    margin: 0;
+}
 }
