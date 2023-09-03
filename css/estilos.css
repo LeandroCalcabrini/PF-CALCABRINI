@@ -12,7 +12,6 @@
 
 header{
     background-color: #ffff;
-    height: 150px;
     position: sticky;
     top: 0;
     display: flex;
@@ -36,8 +35,8 @@ header{
 
 .lugar:hover{
     border-bottom: solid 2px #6F4380;
-    font-size: 17px;
 }
+
 /* BOTON DE CONTACTAR Y DE SOLICITUD DE FORMULARIO */
 button {
     height: 35px;
@@ -194,11 +193,6 @@ details{
 /* banner de art de interes y terapia online */
 
 
-
-
-
-
-
 .banner{
 
     background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
@@ -215,8 +209,6 @@ details{
     font-size: 60px;
     text-align: center;
 }
-
-
 
 
 /* SECCION DEL FOOTER */
@@ -259,6 +251,7 @@ footer .copyright p{
     align-items: center;
 }
 
+
 .social-links ul{
     display: flex;
     justify-content: space-evenly;
@@ -294,7 +287,6 @@ footer .copyright p{
 
 
 
-
 /* TERAPIA ONLINE. ARTICULOS */
 
 .container h3{
@@ -314,8 +306,37 @@ footer .copyright p{
 
 
 
+/*  SECTOR SOBRE MI  */
 
+.container__sobremi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.sobremi__perfil{
+    width: 50%;
+}
+
+.sobremi__texto{
+    width: 50%;
+}
+
+.figure img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.tituloscontainer{
+    padding: 20px 30px;
+}
+
+.master{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* SECTOR CONTACTO */
@@ -421,8 +442,10 @@ align-items: center;
 /* RESPONSIVE CELULAR */
 
 @media (max-width:480px){
-
-/* BARRA DE NAVEGACION MOBILE */
+    p{
+        font-size: 13px;
+    }
+/* BARRA DE NAVEGACION */
 
 .navbar{
     display: block;
@@ -439,6 +462,46 @@ align-items: center;
     font-size: 10px;
 }
 
+/* INDEX - PRIMER CONTEDOR */
+
+
+.container__index h1{
+    font-size: 40px;
+}
+
+.container__index .psicologia{
+    font-size: 40px;
+}
+
+.container__index p{
+    padding: 20px 20px;
+    line-height: 25px;
+}
+
+
+/* INDEX - DIFERENCIAS */
+
+.container .diferencias{
+    padding: 20px 20px;
+}
+
+.diferencias h3{
+    padding: 5px;
+    font-size: 19px;
+}
+
+
+/* INDEX - PREGUNTAS FRECUENTES */
+
+.preguntas h4{
+    font-size: 25px;
+    padding: 25px;
+}
+
+
+
+
+
 header .logocontainer{
     padding-top: 15px;
 }
@@ -450,7 +513,7 @@ footer{
 }
 
 
-/* seccion art. de interes. */
+/* ART. DE INTERES */
 
 /* carta en bootstrap tiene una position relative. */
 .card{
@@ -460,4 +523,32 @@ footer{
 details{
     margin: 0;
 }
+
+
+/* BANNER*/
+.banner{
+    height: 100px;
+}
+
+.banner h1{
+    font-size: 40px;
+}
+
+
+/* SOBRE MI */
+/* contenedor de foto y texto */
+
+.container__sobremi{
+    display: block;
+}
+
+.sobremi__perfil{
+    width: 100%;
+}
+
+.sobremi__texto{
+    width: 100%;
+}
+
+
 }
