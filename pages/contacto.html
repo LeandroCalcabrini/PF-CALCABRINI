@@ -11,12 +11,15 @@
   </head>
   <body>
       <header>
+         <!-- COMIENZO DEL HEADER -->
+        <!-- HEADER - BARRA DE NAVEGACION -->
           <nav class="navbar">
-              <div class="logocontainer">
+              <figure class="logocontainer">
                   <a href="../index.html">
                      <img src="../img/LOGO.png" alt="logo" class="logo">
                   </a>
-              </div>
+              </figure>
+                 <!-- CONTENEDOR DE LOS LINKS DE LA NAVBAR -->
                   <ul class="navlinks">
                       <li> 
                           <a href="../index.html"class="lugar">Inicio</a>
@@ -40,6 +43,8 @@
           </nav>
       </header>
       <main>
+        <!-- COMIENZO DEL MAIN -->
+        <!-- BANNER -->
           <div class="banner">
               <div class="">
                   <h1>Solicitar un turno </h1>
@@ -50,10 +55,11 @@
                   <p>En la primera entrevista hablaremos de los motivos por los que has decidido hacer la consulta y pensaremos en un plan terapéutico para abordarlos. Este primer encuentro sirve para que pienses si el modelo de abordaje te resulta apropiado, si te sentís cómodo con la modalidad de trabajo o si es necesario hacer una derivación con otro profesional.</p>
                   <p>Si deseas solicitar un turno o recibir informacion, deja tus datos y en breve estaremos en contacto </p>
           </section>
-          <section class="contenedoor">
-                  <div class="leandro">
+          <section class="container">
+              <article class="container__contacto">
+                  <div class="contacto__form">
                       <h1 class="contactame"> Datos del consultante </h1>                  
-                          <form class="formulario">
+                          <form class="formulario"> <!-- formulario -->
                               <div class="datos">
                                   <input type="text" class="valor" name="nombre" placeholder="Nombre">
                               </div>
@@ -72,44 +78,46 @@
                               <div class="datos">
                                   <input class="contacto" id="enviar" type="submit" value="Solicitar Turno">
                               </div>
-                          </form>
-                      </div>
+                          </form>   
+                    </div>
+              </article>
           </section>
+          <!-- DUDA DE FORMULARIO -->
           <section class="container-fluid">
               <h4>¿TENÉS ALGUNA DUDA ANTES DE SOLICITAR UN TURNO?</h4>
               <p>Podes contactarme por <a href="#">Whatsaap</a> o enviarme un <a href="mailto:luciapaulahelbert@gmail.com">correo electrónico</a></p>
           </section>
       </main>
       <footer>
-              <figure class="logocontainer">
-                  <a href="../index.html">
-                      <img src="../img/LOGO.png" alt="logo" class="logo">
-                  </a>
-              </figure>
-                  <div class="copyright">
-                    <div>
+          <figure class="logocontainer">
+              <a href="../index.html">
+                  <img src="../img/LOGO.png" alt="logo" class="logo">
+              </a>
+          </figure>
+          <div class="copyright">
+                  <div>
                       <p>&COPY;Copyright 2023</p>
-                    </div>
                   </div>
-                  <div class="social-links">
-                      <ul>
-                          <li> 
-                              <a href="mailto:luciapaulahelbert@gmail.com">
-                                  <i class="fa-solid fa-envelope"></i>
-                              </a>
-                          </li>
-                          <li> 
-                              <a href="https://www.linkedin.com/in/lucia-helbert-8262a5201/"> 
-                                  <i class="fa-brands fa-linkedin-in"></i>
-                              </a>
-                          </li>
-                          <li> 
-                              <a href="https://instagram.com/lohabloconmipsico?igshid=NzZhOTFlYzFmZQ=="> 
-                                  <i class="fa-brands fa-instagram"></i>
-                              </a>
-                          </li>
-                      </ul>
-                  </div>
+          </div>
+          <div class="social-links">
+              <ul>
+                  <li> <!-- EMAIL -->
+                      <a href="mailto:luciapaulahelbert@gmail.com">
+                          <i class="fa-solid fa-envelope"></i>
+                      </a>
+                  </li>
+                  <li> <!-- LINKEDIN -->
+                      <a href="https://www.linkedin.com/in/lucia-helbert-8262a5201/"> 
+                          <i class="fa-brands fa-linkedin-in"></i>
+                      </a>
+                  </li>
+                  <li> <!-- INSTAGRAM -->
+                      <a href="https://instagram.com/lohabloconmipsico?igshid=NzZhOTFlYzFmZQ=="> 
+                          <i class="fa-brands fa-instagram"></i>
+                      </a>
+                  </li>
+              </ul>
+          </div>
       </footer>
       <link rel="stylesheet" href="../js/bootstrap.bundle.js">
   </body>

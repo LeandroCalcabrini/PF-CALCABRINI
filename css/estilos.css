@@ -8,7 +8,7 @@
     box-sizing: border-box;
     text-align: justify;
 }
-/*  Empieza el header */
+/*  seccion header */
 
 header{
     background-color: #ffff;
@@ -82,20 +82,20 @@ button {
     text-decoration: none;
     color: grey;
 }
+/* FIN SECCION HEADER */
 
 
-/* Empieza el main del index*/
 main{
     background-color: #F6F3EE;
 }
 
-/* primer contenedor del main de index */
 
 .container{
     padding: 40px 20px;
 }
 
-
+/* INDEX */
+/* Contenedor Que es la psicologia */
 .container .container__index{
     background-image: url(../img/IZQUIERDA11.jpg);
     background-repeat: no-repeat;
@@ -110,9 +110,7 @@ main{
 
 .container__index__principal{
 
-    background-color: #ffffff73;
-    height:auto;
-    box-shadow: 5px 10px 20px 1px #f0f0f0;
+    background-color: #ffffffad;
 }
 
 
@@ -131,13 +129,7 @@ main{
     line-height: 30px;
 }
 
-/* segundo contenedor del index */
-
-.contenedor{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+/* DIFERENCIAS - INDEX */
 
 .container .diferencias{
     border-radius: 10px;
@@ -146,7 +138,6 @@ main{
 }
 
 .diferencias__logo{
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,8 +159,7 @@ padding: 15px;
 }
 
 
-
-/* PREGUNTAS FRECUENTES */
+/* PREGUNTAS FRECUENTES - INDEX */
 
 
 .preguntas h4{
@@ -188,10 +178,11 @@ details{
     margin: 10px 100px;
 }
 
+/* FIN SECCION INDEX */
 
 
-/* banner de art de interes y terapia online */
 
+/* BANNER*/
 
 .banner{
 
@@ -284,17 +275,17 @@ footer .copyright p{
 }
 
 
+/* FIN SECCION FOOTER */
 
 
-
-/* TERAPIA ONLINE. ARTICULOS */
+/* SECCION TERAPIA ONLINE. ARTICULOS */
 
 .container h3{
     text-align: center;
     color:#6F4380
 }
 
-
+/* FIN SECCION TERAPIA ONLINE */
 
 /* ART. DE INTERES. VIDEOS */
 
@@ -304,9 +295,9 @@ footer .copyright p{
 }
 
 
+/* FIN SECCIION ART. DE INTERES */
 
-
-/*  SECTOR SOBRE MI  */
+/*  SECCCION SOBRE MI  */
 
 .container__sobremi{
     display: flex;
@@ -314,11 +305,11 @@ footer .copyright p{
     justify-content: center;
 
 }
-
+/* contenedor de la izquierda que tiene imagen y descripcion */
 .sobremi__perfil{
     width: 50%;
 }
-
+/* contenedor del texto (derecha) */
 .sobremi__texto{
     width: 50%;
 }
@@ -328,15 +319,7 @@ footer .copyright p{
     width: 100%;
 }
 
-.tituloscontainer{
-    padding: 20px 30px;
-}
-
-.master{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* FIN SECTOR SOBRE MI */
 
 
 /* SECTOR CONTACTO */
@@ -344,7 +327,7 @@ footer .copyright p{
 
 /* contenedor del formulario */
 
-.contenedoor{
+.container__contacto{
     display: flex;
     width: 100%;
     padding: 50px;
@@ -353,7 +336,7 @@ footer .copyright p{
 }
 
 /* parte del formulario */
-.contenedoor .leandro{
+.container__contacto .contacto__form{
     background-color: #FFFF;
     border-radius: 15px;
     padding: 10px;
@@ -362,13 +345,7 @@ footer .copyright p{
     box-shadow: 0px 0px 15px 5px #999;
 }
 
-.referencia{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.leandro h1{
+.contacto__form h1{
     text-align: center;
     color:#6F4380
 }
@@ -407,7 +384,7 @@ align-items: center;
     margin-top: 30px
 }
 
-
+/* contenedor de duda sobre turno - seccion contacto */
 .container-fluid{
     background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
     height: 150px;
@@ -415,12 +392,6 @@ align-items: center;
 
 }
 
-
-.subcontainer{
-    background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
-    height: 100px;
-    padding: 20px 100px;
-}
 
 .container-fluid h4{
     color: #ffff;
@@ -430,22 +401,33 @@ align-items: center;
     color:#ffff
 }
 
-
 .container-fluid a{
     text-decoration: none;
     color: #ffff;
     border-bottom: solid 1px;
 }
 
+/* FIN SECCION CONTACTO */
+
+
+
+
 
 
 /* RESPONSIVE CELULAR */
 
 @media (max-width:480px){
-    p{
-        font-size: 13px;
+p{
+    font-size: 13px;
+}
+
+/* HEADER MOBILE */
+header .logocontainer{
+        padding-top: 15px;
     }
-/* BARRA DE NAVEGACION */
+    
+
+/* HEADER - BARRA DE NAVEGACION */
 
 .navbar{
     display: block;
@@ -499,21 +481,14 @@ align-items: center;
 }
 
 
-
-
-
-header .logocontainer{
-    padding-top: 15px;
-}
-
-/* footer mobiLe */
+/* FOOTER MOBILE */
 footer{
    flex-direction: column;
    flex-wrap: nowrap;
 }
 
 
-/* ART. DE INTERES */
+/* ART. DE INTERES MOBILE*/
 
 /* carta en bootstrap tiene una position relative. */
 .card{
@@ -525,7 +500,7 @@ details{
 }
 
 
-/* BANNER*/
+/* BANNER MOBILE*/
 .banner{
     height: 100px;
 }
@@ -535,7 +510,7 @@ details{
 }
 
 
-/* SOBRE MI */
+/* SOBRE MI MOBILE*/
 /* contenedor de foto y texto */
 
 .container__sobremi{
@@ -549,6 +524,5 @@ details{
 .sobremi__texto{
     width: 100%;
 }
-
 
 }
