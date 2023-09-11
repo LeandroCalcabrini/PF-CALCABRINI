@@ -148,7 +148,7 @@ main{
     height: auto;
 }
 
-.diferencias h3{
+.diferencias h2{
 color:#6F4380;
 text-align: center;
 padding: 15px;
@@ -162,7 +162,7 @@ padding: 15px;
 /* PREGUNTAS FRECUENTES - INDEX */
 
 
-.preguntas h4{
+.preguntas h3{
     text-align: center;
     color:#6F4380;
     padding: 50px;
@@ -280,11 +280,15 @@ footer .copyright p{
 
 /* SECCION TERAPIA ONLINE. ARTICULOS */
 
-.container h3{
+.container h2{
     text-align: center;
     color:#6F4380
 }
 
+.container h3{
+    text-align: center;
+    color:#6F4380
+}
 /* FIN SECCION TERAPIA ONLINE */
 
 /* ART. DE INTERES. VIDEOS */
@@ -467,7 +471,7 @@ header .logocontainer{
     padding: 20px 20px;
 }
 
-.diferencias h3{
+.diferencias h2{
     padding: 5px;
     font-size: 19px;
 }
@@ -475,7 +479,7 @@ header .logocontainer{
 
 /* INDEX - PREGUNTAS FRECUENTES */
 
-.preguntas h4{
+.preguntas h3{
     font-size: 25px;
     padding: 25px;
 }
