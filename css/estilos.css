@@ -394,7 +394,7 @@ align-items: center;
 }
 
 /* contenedor de duda sobre turno - seccion contacto */
-.container-fluid{
+.container-fluid-custom{
     background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
     height: 150px;
     padding: 20px 40px;
@@ -408,15 +408,15 @@ align-items: center;
     padding: 20px 40px;
 } */
 
-.container-fluid h4{
+.container-fluid-custom h4{
     color: #ffff;
 }
 
-.container-fluid p{
+.container-fluid-custom p{
     color:#ffff
 }
 
-.container-fluid a{
+.container-fluid-custom a{
     text-decoration: none;
     color: #ffff;
     border-bottom: solid 1px;
