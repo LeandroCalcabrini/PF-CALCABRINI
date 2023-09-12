@@ -13,34 +13,38 @@
     <header>
         <!-- COMIENZO DEL HEADER -->
        <!-- HEADER - BARRA DE NAVEGACION -->
-         <nav class="navbar">
-             <figure class="logocontainer">
-                 <a href="index.html">
-                    <img src="./img/LOGO.png" alt="logo" class="logo">
-                 </a>
-             </figure>
-                <!-- CONTENEDOR DE LOS LINKS DE LA NAVBAR -->
-                 <ul class="navlinks">
-                     <li> 
-                         <a href="index.html"class="lugar">Inicio</a>
-                     </li>
-                     <li> 
-                         <a href="./pages/sobremi.html" class="lugar">Sobre mí</a>
-                     </li>
-                     <li> 
-                         <a href="./pages/terapiaonline.html"class="lugar">Terapia Online</a>
-                     </li>
-                     <li> 
-                         <a href="./pages/articulosdeinteres.html"class="lugar">Artículos de interés</a>
-                     </li>
-                     <li> 
-                         <a href="./pages/contacto.html">
-                             <button class="contacto">Contacto</button>
-                         </a>
-                     </li>
-                 </ul>
-             </div>
-         </nav>
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <figure class="logocontainer">
+                       <img src="./img/LOGO.png" alt="logo" class="logo">
+                </figure>
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item align-items-center d-flex">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item align-items-center d-flex">
+                  <a class="nav-link" href="./pages/sobremi.html">Sobre mi</a>
+                </li>
+                <li class="nav-item align-items-center d-flex">
+                  <a class="nav-link" href="./pages/terapiaonline.html">Terapia Online</a>
+                </li>
+                <li class="nav-item align-items-center d-flex">
+                  <a class="nav-link" href="./pages/articulosdeinteres.html">Articulos de interes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/contacto.html">
+                      <button class="contacto">Contacto</button></a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
      </header>
      <main>
         <!-- COMIENZO DEL MAIN -->
@@ -49,41 +53,40 @@
               <div class="container__index">
                   <article class="container__index__principal">
                       <h1> ¿Qué es la <strong class="psicologia">Psicología</strong>? </h1>
-                      <p> El rol del psicólogo se puede desempeñar en múltiples áreas, como diagnosticar y establecer categorías diagnosticas y clasificando al paciente en una categoría    especifica.
-                      Puede ser investigador científico entrenado para aplicar su conocimiento empírico y teorías del comportamiento normal a la evaluación, comprensión, y cambio de patrones anormales del comportamiento.
-                      En definitiva el psicólogo es un profesional de la psicología que estudia el psiquismo, conductas, y las formas de relacionarse de los individuos, procediendo a la prevención, diagnostico, rehabilitación y tratamiento de las alteraciones de personalidad existentes en la infancia, en el adulto o en la vejez, en sus aspectos individuales, en su adaptación al medio socio-familiar y laboral, así como a la profilaxis y desarrollo de la salud mental en la comunidad humana.
-                      Considero primordial establecer un vínculo terapéutico cálido, basado en el respeto, la responsabilidad y la ética profesional</p>
+                      <p> Cómo su etimología lo indica, la <strong class="logia">psico-logia</strong> es la disciplina que estudia los procesos mentales en sus dimensiones cognitivas, afectivas y conductuales.
+                        Ello comprende un vasto campo de intervención, cómo ser; clínico, educacional, social, jurídico-forense, laboral, deportivo, entre otros, siendo el rol del psicólogo diferente a cada ámbito mencionado.
+                        En particular, la psicología clínica se dedica a la investigación, desarrollo y aplicación de tratamientos a través de la Terapia Psicológica; abarca un conjunto de teorías y de técnicas entre las que se incluye un tipo específico de relación entre el psicólogo clínico y su paciente o consultante.</p>
                   </article>
               </div>
          </section>
          <!-- SEGUNDO CONTENEDOR DEL MAIN/INEX - 3 DIFERENCIAS -->
-         <section class="container">
+         <section class="container diferencias">
+            <h2 class="distinciones">Algunas distinciones</h2>
               <div class="row">
-                <div class="col">
-                  <article class="diferencias"> <!-- Primer diferencia. PSIQUIATRIA -->
-                      <figure class="diferencias__logo">
+                <div class="col-12 col-lg-6 col-xxl-4">
+                  <article><!-- Primer diferencia. PSIQUIATRIA -->
+                      <figure class="d-flex w-100 justify-content-center">
                           <img src="./img/TERAPIA.png" alt="terapia">
                       </figure>
-                      <h2>Psiquiatría</h2>
-                      <p>El rol del psicólogo se puede desempeñar en múltiples áreas, como diagnosticar y establecer categorías diagnosticas y clasificando al paciente en una categoría especifica. Puede ser investigador científico entrenado para aplicar su conocimiento empírico y teorías del comportamiento normal a la evaluación, comprensión, y cambio de patrones anormales del comportamiento. En definitiva el psicólogo es un profesional de la psicología que estudia el psiquismo, conductas, y las formas de relacionarse de los individuos, procediendo a la prevención, diagnostico, rehabilitación y tratamiento de las alteraciones de personalidad existentes en la infancia, en el adulto o en la vejez, en sus aspectos individuales, en su adaptación al medio socio-familiar y laboral, así como a la profilaxis y desarrollo de la salud mental en la comunidad humana. Considero primordial establecer un vínculo terapéutico cálido, basado en el respeto, la respo!</p>
-                  </article>
+                      <h3>Psiquiatría</h3>
+                      <p>Al ser una especialidad de la medicina, se basa en el estudio científico de la conducta atípica de los seres humanos, en una dimensión descriptiva (clínica, diagnóstica y clasificatoria) y etiológica (factores causales, teóricos y modelos clínicos). Por ende, al tener un enfoque orgánico, utiliza el fármaco cómo paliativo al malestar.
                 </div>
-                <div class="col">
-                  <article class="diferencias"> <!-- sgunda diferencia. PSICOANALISIS -->
-                      <figure class="diferencias__logo">
+                <div class="col-12 col-lg-6 col-xxl-4">
+                  <article> <!-- sgunda diferencia. PSICOANALISIS -->
+                      <figure class="d-flex w-100 justify-content-center">
                           <img src="./img/MEDICAMENTO.png" alt="medicamento">
                       </figure>
-                      <h2>Psicoanálisis</h2>
-                      <p>El rol del psicólogo se puede desempeñar en múltiples áreas, como diagnosticar y establecer categorías diagnosticas y clasificando al paciente en una categoría especifica. Puede ser investigador científico entrenado para aplicar su conocimiento empírico y teorías del comportamiento normal a la evaluación, comprensión, y cambio de patrones anormales del comportamiento. En definitiva el psicólogo es un profesional de la psicología que estudia el psiquismo, conductas, y las formas de relacionarse de los individuos, procediendo a la prevención, diagnostico, rehabilitación y tratamiento de las alteraciones de personalidad existentes en la infancia, en el adulto o en la vejez, en sus aspectos individuales, en su adaptación al medio socio-familiar y laboral, así como a la profilaxis y desarrollo de la salud mental en la comunidad humana. Considero primordial establecer un vínculo terapéutico cálido, basado en el respeto, la respo</p>
+                      <h3>Psicoanálisis</h3>
+                      <p>Tal orientación pone el eje en la palabra, a través de ella, se investiga y profundiza en el inconsciente, con el objetivo de guiar al paciente en su proceso de búsqueda e indagación introspectiva  para mejorar la experiencia de bienestar psicológico.</p>
                   </article>
                 </div>
-                <div class="col">
-                  <article class="diferencias"> <!-- tercer diferencias. SALUD MENTAL -->
-                      <figure class="diferencias__logo">
-                      <img src="./img/CORAZON.png" alt="corazon">
+                <div class="col-12 col-xxl-4">
+                  <article> <!-- tercer diferencias. SALUD MENTAL -->
+                      <figure class="d-flex w-100 justify-content-center">
+                          <img src="./img/CORAZON.png" alt="corazon">
                       </figure>
-                      <h2>Salud mental</h2>
-                      <p>El rol del psicólogo se puede desempeñar en múltiples áreas, como diagnosticar y establecer categorías diagnosticas y clasificando al paciente en una categoría especifica. Puede ser investigador científico entrenado para aplicar su conocimiento empírico y teorías del comportamiento normal a la evaluación, comprensión, y cambio de patrones anormales del comportamiento. En definitiva el psicólogo es un profesional de la psicología que estudia el psiquismo, conductas, y las formas de relacionarse de los individuos, procediendo a la prevención, diagnostico, rehabilitación y tratamiento de las alteraciones de personalidad existentes en la infancia, en el adulto o en la vejez, en sus aspectos individuales, en su adaptación al medio socio-familiar y laboral, así como a la profilaxis y desarrollo de la salud mental en la comunidad humana. Considero primordial establecer un vínculo terapéutico cálido, basado en el respeto, la respo</p>
+                      <h3>Salud mental</h3>
+                      <p>El rol del psicólogo se puede desempeñar en múltiples áreas, como diagnosticar y establecer categorías diagnosticas y clasificando al paciente en una categoría especifica. Puede ser investigador científico entrenado para aplicar su conocimiento empírico y teorías del comportamiento normal a la evaluación, comprensión, y cambio de patrones anormales del comportamiento. En definitiva el psicólogo es un profesional de la psicología que estudia el psiquismo, conductas, y las formas de relacionarse de los individuos, procediendo a la prevención, diagnostico, rehabilitación y tratamiento de las alteraciones de personalidad existentes en la infancia, en el adulto o en la vejez, en sus aspectos individuales, en su adaptación al medio socio-familiar y laboral, así como a la profilaxis y desarrollo de la salud mental en la comunidad humana.</p>
                   </article>
                 </div>
               </div>
@@ -91,14 +94,14 @@
           <!-- TERCER CONTENEDOR MAIN/INDEX - PREGUNTAS FRECUENTES -->
           <section class="container">
               <article class="preguntas">
-                  <h3> Preguntas frecuentes</h3>
+                  <h4> Preguntas frecuentes</h4>
                   <details>
                       <summary>¿Qué tipo de terapia realiza?</summary>
-                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, provident. Reiciendis earum repellendus, recusandae ut reprehenderit dolorum sint eaque maiores dignissimos quo dolorem! Voluptates ducimus enim delectus numquam facere sequi, quos, commodi dolorum quisquam quidem, repudiandae optio nobis sit voluptate velit magni quas culpa unde. Doloremque culpa exercitationem similique. Commodi.</p>
+                          <p>Terapia Individual con orientación psicoanalítica.</p>
                       </details>
                   <details>
                       <summary>¿Cuál es la modalidad?</summary>
-                      <p>Si estás en Rosario, Santa Fe, una de las opciones es la terapia presencial en mi consultorio particular. De otra forma, puede realizarse terapia online, ya sea que prefieras esa modalidad, o residas en otra localidad</p>
+                      <p>Online o presencial(En Rosario, Santa Fe, Argentina).</p>
                   </details>
                   <details>
                       <summary>¿Cuanto dura?</summary>
@@ -106,11 +109,11 @@
                   </details>
                   <details>
                       <summary>¿Trabajas con obras sociales?</summary>
-                      <p>No. Unicamente de forma particular.</p>
+                      <p>No. Unicamente de forma particular(Honorario a convenir con el profesional).</p>
                   </details>
                   <details>
                       <summary>¿Cuáles son los medios de pago?</summary>
-                      <p>Los pagos se pueden realizar por transferencia bancaria o también por la plataforma Mercado Pago. Si no resides en Argentina, Wise es la alternativa disponible.</p>
+                      <p>Los pagos se pueden realizar mediante efectivo o transferencia bancaria (tambien mercadopago). Si no resides en Argentina, Wise es la alternativa disponible.</p>
                   </details>
               </article>
           </section>
