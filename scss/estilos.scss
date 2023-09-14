@@ -2,6 +2,9 @@
 @import "../partials/reset";
 @import "../partials/variables";
 
+h2{
+    color:$color-principal;
+}
 header{
     background-color: #ffff;
     position: sticky;
@@ -200,6 +203,7 @@ article{
 }
 .container.sobremi h2{
     color: $color-principal;
+    text-align: start;
 }
 
 /* TERAPIA ONLINE */
@@ -277,7 +281,7 @@ article{
     background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
     padding: 40px;
     h4{
-        color:#ffff
+        color:#ffff;
     }
     p{
         color: #ffff;

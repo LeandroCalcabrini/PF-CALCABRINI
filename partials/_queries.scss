@@ -2,46 +2,40 @@
     p{
         font-size: 13px;
     }
-    
-    /* HEADER MOBILE */
-    header .logocontainer{
-            padding-top: 15px;
-        }
-        
-    
-    /* HEADER - BARRA DE NAVEGACION */
-    
-    .navbar{
-        display: block;
-        padding: 0;
-    }
-    
-    .navlinks{
-        gap: 7px;
-        padding: 0;
-        height: 50px;
-    }
-    
-    .navlinks a{
-        font-size: 10px;
-    }
-    
+
     /* INDEX - PRIMER CONTEDOR */
     
-    
-    .container__index h1{
+    .container__index{
+
+        article{
+            h1{
+                font-size: 50px;
+                .psicologia{
+                    font-size: 50px;
+                }
+            } 
+            p{
+                padding: 20px;
+                line-height: 25px ;
+            }       
+        }
+    }
+
+
+
+/*     .container__index article h1{
         font-size: 40px;
     }
     
-    .container__index .psicologia{
+    .container__index article .psicologia{
         font-size: 40px;
-    }
+    } */
     
-    .container__index p{
-        padding: 20px 20px;
+    /* .container__index p{
+        padding: 10px 20px;
         line-height: 25px;
     }
-    
+     */
     
     /* INDEX - DIFERENCIAS */
     
@@ -87,23 +81,7 @@
         font-size: 40px;
     }
     
-    
-    /* SOBRE MI MOBILE*/
-    /* contenedor de foto y texto */
-    
-    .container__sobremi{
-        display: block;
-    }
-    
-    .sobremi__perfil{
-        width: 100%;
-    }
-    
-    .sobremi__texto{
-        width: 100%;
-    }
-    
-    .container .titulo{
+    .container.container.sobremi h2{
         text-align: center;
     }
     
