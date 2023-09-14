@@ -1,0 +1,295 @@
+@import "../partials/fuentes";
+@import "../partials/reset";
+@import "../partials/variables";
+
+header{
+    background-color: #ffff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    .logocontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logo{
+            width: 75px;
+            cursor: pointer;
+        }   
+    }
+    .navbar{
+        padding: 0px 30px;
+        width: $ancho;
+        .nav-link{
+            color: black;        
+            &:hover{
+            border-bottom: solid 2px $color-principal;
+            }
+        button{
+            height: 35px;
+            border: none;
+            border-radius: 10px;
+            padding: 5px;
+            background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
+            color: #ffff;
+            cursor: pointer;
+        }
+        } 
+    }
+}
+
+footer{
+    background-color: #474A57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+    padding: 10px 30px;
+    .logocontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logo{
+            width: 75px;
+            cursor: pointer;
+        }   
+    }
+    a{
+        text-decoration: none;
+        color:#ffff;
+    }
+    .copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        P{
+            margin: 0;
+            color:#ffff;
+        }
+    }
+    .social-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 200px;
+            height: 50px;
+            margin: 0;
+            padding: 0;
+            li{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                padding: 0px 5px;
+                height: 50px;
+                width: 50px;     
+            &:hover{
+                background-color: #6F4380;
+                border-radius: 25px;
+                transition: 0.4s; 
+            }    
+            }
+        }
+    }
+}
+
+main{
+    background-color: $bg-principal
+}
+
+/* INDEX */
+.container__index{
+    background-image: url(../img/IZQUIERDA11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: $ancho;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    article{
+        background-color: #343a4099;
+
+        h1{
+            color: #ffff;
+            font-size: 65px;
+            text-align: center;
+            padding-top: 20px;
+    
+            strong{
+                color: $color-principal;
+                font-size: $font-h1;
+            }
+        }
+    
+        p{
+            color:#ffff;
+            padding: 40px 20px;
+            line-height: 30px;
+
+            strong{
+                font-style: oblique;
+            }
+        }
+    }
+}
+
+
+.container.diferencias{
+    h2{
+    text-align: center;
+    color:$color-principal
+}
+
+article{
+    border-radius: 10px;
+    padding: 20px 35px;
+    box-shadow: 0px 0px 10px 10px $color-principal;
+    margin-bottom: 35px;
+    
+    img{
+        width: 70px;
+        height: auto; 
+    }
+    h3{
+        text-align: center;
+        color:$color-principal;
+    }
+}
+}
+
+.preguntas{
+    h2{
+        text-align: center;
+        color:$color-principal;
+    }
+    
+    summary{
+        margin: 10px;
+    }
+
+    details{
+        border-bottom: solid 1px $color-principal;
+    }
+}
+
+/* SOBRE MI */
+
+.banner{
+    background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
+    padding: 100px;
+    width: $ancho;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color:#ffff;
+        font-size: $font-h1;
+        text-align: center;
+    }
+}
+.figure img{
+    border-radius: 50%;
+    width: $ancho;
+}
+.container.sobremi h2{
+    color: $color-principal;
+}
+
+/* TERAPIA ONLINE */
+
+.container.terapiaonline{
+    h2{
+        text-align: center;
+        color:$color-principal;
+    }
+    h3{
+        text-align: center;
+        color:$color-principal;
+    }
+}
+
+
+/* ARTICULOS DE INTERES */
+
+.card-title{
+    text-align: center;
+    color: $color-principal;
+}
+
+/* CONTACTO */
+
+.container__contacto{
+    display: flex;
+    width: $ancho;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    .contacto__form{
+        background-color: #FFFF;
+        border-radius: 15px;
+        box-shadow: 0px 0px 15px 5px #999;
+        h3{
+            text-align: center;
+            color:$color-principal;
+        }
+        .datos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input{
+                margin: 20px 10px;
+                padding: 10px;
+                width: $ancho;
+                border: none;
+                border-bottom: solid 1px $color-principal;
+            }
+            .contacto{
+                border: none;
+                border-radius: 10px;
+                background: linear-gradient(90deg, rgb(59, 12, 94) 0%, rgb(112, 68, 129) 100%, rgb(9, 9, 121) 100%);
+                color: #ffff;
+                text-align: center;
+                width: 50%;
+                cursor: pointer;
+            }
+        }
+        .mensaje{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            textarea{
+                width: 330px;
+                height: 130px;
+            }
+        }
+    }
+}
+
+.container-fluid-custom{
+    background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
+    padding: 40px;
+    h4{
+        color:#ffff
+    }
+    p{
+        color: #ffff;
+    }
+    a{
+        text-decoration: none;
+        color: #ffff;
+        border-bottom: solid 1px;
+    }
+}
+
+
+
+
+@import "../partials/queries"

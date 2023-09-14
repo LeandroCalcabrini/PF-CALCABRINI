@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:wght@200;400;600;800&family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+/*  seccion header */
+
+header{
+    background-color: #ffff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+}
+
+/* CONTENEDOR DEL LOGO DE LA ORG. */
+
+.logocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* LOGO DE LA ORGANIZACION */
+.logo{
+    width: 75px;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    border-bottom: solid 2px #6F4380;
+}
+
+/* BOTON DE CONTACTAR Y DE SOLICITUD DE FORMULARIO */
+button {
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.contacto{
+    background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
+    color: #ffff;
+    cursor: pointer;
+}
+
+
+/* CONTENEDOR DE LA NAVBAR.  */
+.navbar{
+    padding:0px 30px;
+    width: 100%;
+}
+
+.nav-link{
+    color: black;
+}
+/* FIN SECCION HEADER */
+
+
+main{
+    background-color: #F6F3EE;
+}
+
+/* INDEX */
+/* Contenedor Que es la psicologia */
+.container .container__index{
+    background-image: url(../img/IZQUIERDA11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.container__index article{
+
+    background-color: #343a4099;
+}
+
+p .logia{
+    font-style: oblique;
+}
+
+.container__index h1{
+    color: #ffff;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 20px;
+}
+.container__index .psicologia{
+    color: #6F4380;
+    font-size: 65px;
+}
+
+.container__index p{
+    color:#ffff;
+    padding: 40px 20px;
+    line-height: 30px;
+}
+
+/* DISTINCIONES - INDEX */
+
+
+.container.diferencias article{
+    border-radius: 10px;
+    padding: 20px 35px;
+    box-shadow: 0px 0px 10px 10px #6F4380;
+    margin-bottom: 35px
+}
+
+.container.diferencias img{
+    width: 70px;
+    height: auto;
+}
+
+
+
+/* PREGUNTAS FRECUENTES - INDEX */
+
+
+.preguntas h4{
+    text-align: center;
+    color:#6F4380;
+    /* padding: 50px; */
+}
+
+summary{
+margin: 10px;
+}
+
+details{
+    border-bottom: solid 1px #6F4380;
+}
+
+/* FIN SECCION INDEX */
+
+
+
+/* BANNER*/
+
+.banner{
+
+    background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner h1{
+    color: #ffff;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+/* SECCION DEL FOOTER */
+
+footer{
+    background-color: #474A57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+    padding: 10px 30px;
+    
+}
+
+
+footer a{
+text-decoration: none;
+color: #Ffff
+}
+
+/* Contenedor del copyright */
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .copyright p{
+    margin: 0;
+    color: #ffff;
+
+}
+
+/* CONTENEDOR DE LOS ICONOS DE LAS REDES SOCIALES DEL FOOTER */
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-links ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.social-links li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.social-links li:hover{
+    background-color: #6F4380;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.social-links i:hover{
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+
+/* FIN SECCION FOOTER */
+
+
+/* SECCION TERAPIA ONLINE. ARTICULOS */
+
+.container h2{
+    text-align: center;
+    color:#6F4380
+}
+
+.container h3{
+    text-align: center;
+    color:#6F4380
+}
+/* FIN SECCION TERAPIA ONLINE */
+
+/* ART. DE INTERES. VIDEOS */
+
+.card-title{
+    text-align: center;
+    color: #6F4380;
+}
+
+
+/* FIN SECCIION ART. DE INTERES */
+
+/*  SECCCION SOBRE MI  */
+
+.figure img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+
+.container .titulo{
+    text-align: start;
+}
+/* FIN SECTOR SOBRE MI */
+
+
+/* SECTOR CONTACTO */
+
+
+/* contenedor del formulario */
+
+.container__contacto{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* parte del formulario */
+.container__contacto .contacto__form{
+    background-color: #FFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px #999;
+}
+
+.contacto__form h1{
+    text-align: center;
+    color:#6F4380
+}
+
+.datos{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.valor{
+    margin: 20px 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #6F4380
+}
+
+.mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.mensaje textarea{
+    width: 350px;
+    height: 130px;
+}
+
+.datos .contacto{
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px
+}
+
+/* contenedor de duda sobre turno - seccion contacto */
+.container-fluid-custom{
+    background: linear-gradient(90deg, rgba(59,12,94,1) 0%, rgba(112,68,129,1) 100%, rgba(9,9,121,1) 100%);
+    padding: 40px;
+}
+
+.container-fluid-custom h4{
+    color: #ffff;
+}
+
+.container-fluid-custom p{
+    color:#ffff
+}
+
+.container-fluid-custom a{
+    text-decoration: none;
+    color: #ffff;
+    border-bottom: solid 1px;
+}
+
+/* FIN SECCION CONTACTO */
+
+
+
+
+
+
+/* RESPONSIVE CELULAR */
+
+@media (max-width:480px){
+p{
+    font-size: 13px;
+}
+
+/* HEADER MOBILE */
+header .logocontainer{
+        padding-top: 15px;
+    }
+    
+
+/* HEADER - BARRA DE NAVEGACION */
+
+.navbar{
+    display: block;
+    padding: 0;
+}
+
+.navlinks{
+    gap: 7px;
+    padding: 0;
+    height: 50px;
+}
+
+.navlinks a{
+    font-size: 10px;
+}
+
+/* INDEX - PRIMER CONTEDOR */
+
+
+.container__index h1{
+    font-size: 40px;
+}
+
+.container__index .psicologia{
+    font-size: 40px;
+}
+
+.container__index p{
+    padding: 20px 20px;
+    line-height: 25px;
+}
+
+
+/* INDEX - DIFERENCIAS */
+
+.container .diferencias{
+    padding: 20px 20px;
+}
+
+
+
+/* INDEX - PREGUNTAS FRECUENTES */
+
+.preguntas h3{
+    font-size: 25px;
+    padding: 25px;
+}
+
+
+/* FOOTER MOBILE */
+footer{
+   flex-direction: column;
+   flex-wrap: nowrap;
+}
+
+
+/* ART. DE INTERES MOBILE*/
+
+/* carta en bootstrap tiene una position relative. */
+.card{
+    position: static;
+}
+
+details{
+    margin: 0;
+}
+
+
+/* BANNER MOBILE*/
+.banner{
+    height: 100px;
+}
+
+.banner h1{
+    font-size: 40px;
+}
+
+
+/* SOBRE MI MOBILE*/
+/* contenedor de foto y texto */
+
+.container__sobremi{
+    display: block;
+}
+
+.sobremi__perfil{
+    width: 100%;
+}
+
+.sobremi__texto{
+    width: 100%;
+}
+
+.container .titulo{
+    text-align: center;
+}
+
+}
