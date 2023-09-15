@@ -36,6 +36,7 @@ header .navbar {
 }
 header .navbar .nav-link {
   color: black;
+  transition: all 0.05s;
 }
 header .navbar .nav-link:hover {
   border-bottom: solid 2px #6F4380;
@@ -102,11 +103,11 @@ footer .social-links ul li {
   padding: 0px 5px;
   height: 50px;
   width: 50px;
+  transition: 0.45s;
 }
 footer .social-links ul li:hover {
   background-color: #6F4380;
   border-radius: 25px;
-  transition: 0.4s;
 }
 
 main {
@@ -138,7 +139,7 @@ main {
 }
 .container__index article p {
   color: white;
-  padding: 40px 20px;
+  padding: 30px 20px;
   line-height: 30px;
 }
 .container__index article p strong {
@@ -251,8 +252,12 @@ main {
   background: linear-gradient(90deg, rgb(59, 12, 94) 0%, rgb(112, 68, 129) 100%, rgb(9, 9, 121) 100%);
   color: white;
   text-align: center;
-  width: 50%;
+  width: 40%;
   cursor: pointer;
+  transition: all 0.35s;
+}
+.container__contacto .contacto__form .datos .contacto:hover {
+  transform: scale(1.05);
 }
 .container__contacto .contacto__form .mensaje {
   display: flex;
