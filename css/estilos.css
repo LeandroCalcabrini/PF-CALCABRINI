@@ -49,6 +49,10 @@ header .navbar .nav-link button {
   background: linear-gradient(90deg, rgb(59, 12, 94) 0%, rgb(112, 68, 129) 100%, rgb(9, 9, 121) 100%);
   color: white;
   cursor: pointer;
+  transition: all 0.5s;
+}
+header .navbar .nav-link button:active {
+  background: #bfabc7;
 }
 
 footer {
@@ -215,6 +219,37 @@ main {
 .card-title {
   text-align: center;
   color: #6F4380;
+  font-size: 1.25rem;
+}
+
+.card-img-top {
+  height: 160px;
+}
+
+.card-body button {
+  /*     border: solid 1px; */
+  border: none;
+  /*    border-radius: 10px; */
+  /* background: linear-gradient(90deg, rgb(59, 12, 94) 0%, rgb(112, 68, 129) 100%, rgb(9, 9, 121) 100%); */
+  background: white;
+  color: #6F4380;
+  text-align: center;
+  width: 40%;
+  height: 30px;
+  cursor: pointer;
+}
+.card-body button:hover {
+  transform: scale(1.05);
+}
+
+.container__interes {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-bottom: solid 2px #6F4380;
+}
+.container__interes i {
+  color: #6F4380;
 }
 
 /* CONTACTO */
@@ -258,6 +293,9 @@ main {
 }
 .container__contacto .contacto__form .datos .contacto:hover {
   transform: scale(1.05);
+}
+.container__contacto .contacto__form .datos .contacto:active {
+  background: #bfabc7;
 }
 .container__contacto .contacto__form .mensaje {
   display: flex;
