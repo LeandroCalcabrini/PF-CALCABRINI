@@ -227,10 +227,7 @@ main {
 }
 
 .card-body button {
-  /*     border: solid 1px; */
   border: none;
-  /*    border-radius: 10px; */
-  /* background: linear-gradient(90deg, rgb(59, 12, 94) 0%, rgb(112, 68, 129) 100%, rgb(9, 9, 121) 100%); */
   background: white;
   color: #6F4380;
   text-align: center;
