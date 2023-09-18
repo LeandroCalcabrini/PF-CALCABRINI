@@ -329,7 +329,7 @@ main {
   .container__index article h1 {
     font-size: 50px;
   }
-  .container__index article h1 .psicologia {
+  .container__index article h1 strong {
     font-size: 50px;
   }
   .container__index article p {
