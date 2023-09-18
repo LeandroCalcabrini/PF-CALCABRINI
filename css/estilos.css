@@ -231,8 +231,6 @@ main {
   background: white;
   color: #6F4380;
   text-align: center;
-  width: 40%;
-  height: 30px;
   cursor: pointer;
 }
 .card-body button:hover {
@@ -336,18 +334,6 @@ main {
     padding: 20px;
     line-height: 25px;
   }
-  /*     .container__index article h1{
-          font-size: 40px;
-      }
-
-      .container__index article .psicologia{
-          font-size: 40px;
-      } */
-  /* .container__index p{
-      padding: 10px 20px;
-      line-height: 25px;
-  }
-   */
   /* INDEX - DIFERENCIAS */
   .container .diferencias {
     padding: 20px 20px;
