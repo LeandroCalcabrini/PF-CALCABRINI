@@ -216,6 +216,16 @@ main {
 }
 
 /* ARTICULOS DE INTERES */
+.card {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2%);
+}
+
 .card-title {
   text-align: center;
   color: #6F4380;
