@@ -225,26 +225,25 @@ main {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-2%);
 }
-
-.card-title {
+.card .card-body .card-title {
   text-align: center;
   color: #6F4380;
   font-size: 1.25rem;
 }
-
-.card-img-top {
-  height: 160px;
-}
-
-.card-body button {
+.card .card-body button {
   border: none;
   background: white;
   color: #6F4380;
   text-align: center;
   cursor: pointer;
 }
-.card-body button:hover {
+.card .card-body button:hover {
   transform: scale(1.05);
+}
+.card .card-img-top {
+  height: 160px;
+  object-fit: fill;
+  max-width: 100%;
 }
 
 .container__interes {

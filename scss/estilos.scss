@@ -235,29 +235,32 @@ article{
         box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
         transform: translateY(-2%);
     }
-}
-.card-title{
-    text-align: center;
-    color: $color-principal;
-    font-size: 1.25rem;
-}
-
-.card-img-top{
-    height: 160px;
-}
-
-.card-body{
-    button{
-           border: none;
-            background: #ffff;
-            color: $color-principal;
+    .card-body{
+        .card-title{
             text-align: center;
-            cursor: pointer;
-            &:hover{
-                transform: scale(1.05);
+            color: $color-principal;
+            font-size: 1.25rem;
         }
+        button{
+            border: none;
+             background: #ffff;
+             color: $color-principal;
+             text-align: center;
+             cursor: pointer;
+             &:hover{
+                 transform: scale(1.05);
+         }
+     }
+    }
+    .card-img-top{
+        height: 160px;
+        object-fit: fill;
+        max-width: $ancho;
     }
 }
+
+
+
 
 .container__interes{
     display: flex;
