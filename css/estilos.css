@@ -329,9 +329,7 @@ main {
 }
 
 @media (max-width: 480px) {
-  /*     p{
-          font-size: 13px;
-      } */
+
   /* INDEX - PRIMER CONTEDOR */
   .container__index article h1 {
     font-size: 50px;
